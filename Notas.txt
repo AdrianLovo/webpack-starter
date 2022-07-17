@@ -1,0 +1,35 @@
+
+☼ Introduccion 
+    -Live reload de los cambios
+    -Minimizar el codigo
+    -Ofuscarlo
+    -Incrementar la compatibilidad con otros navegadores
+
+Node: Correr codigo de JavaScript en el servidor. Pero tambien nuestra computadora, puede ser un servidor de desarrollo.
+
+Babel: Libreria que convierte codigo moderno de JS a una version anterior para mejorar la compatibilidad
+
+Webpack: Es un empaquetador de modulos, nos ayuda a realizar muchas tareas de manera automatica
+    -Gestionar dependecias
+    -Montar servidores de desarrollo y pruebas
+    -Cargar modulos
+    -Converitr a diferentes formatos
+    -Minimizar codigo
+    -Compilar de SASS a CSS
+    -Compilar de TS a JS
+    -Nos permite trabajar con JS monderno y olvidarnos de la incompatibilidad
+
+Desventajas
+    -Es que la configuracion inicial puede ser un dolor de cabeza
+    -Puede ser algo complicado detectar problemas con algun paquete
+
+
+React y Angular por defecto utilizan Webpack internamente
+
+
+COMANDOS
+    -npm install webpack webpack-cli --save-dev (configuracion de desarrollo)
+    -npm run build (Genera la carpeta "dist")
+
+
+
